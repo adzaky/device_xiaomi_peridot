@@ -11,6 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
+-include vendor/lineage-priv/keys/keys.mk
+
 # Inherit from peridot device
 $(call inherit-product, device/xiaomi/peridot/device.mk)
 
