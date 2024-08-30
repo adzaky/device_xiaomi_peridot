@@ -12,4 +12,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">90</integer>
+
+    <!-- Pixelage build maintainer -->
+    <string name="build_maintainer_summary" translatable="false">adzaky</string>
 </resources>
